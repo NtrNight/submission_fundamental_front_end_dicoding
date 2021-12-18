@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(250, 250, 250);
+}
+
+movie-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+movie-item{
+    max-width: 250px;
+}
+
+.parent{
+    box-shadow:0 4px 6px 0px rgba(0,0,0,.5);
+    transition: all .5s ease;
+  }
+  .parent:hover{
+    transform: scale(105%);
+    /* box-shadow:0 10px 10px 5px rgba(0,0,0,.5); */
+    z-index:1;
+  }
+
+  /* // `xs` returns only a ruleset and no media query
+  // ... { ... } */
+  
+  /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+
+  }
+  
+  /* // `md` applies to small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {
+
+  }
+  
+  /* // `lg` applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+
+  }
+  
+  /* // `xl` applies to large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {
+
+  }
+  
+  /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+  @media (max-width: 1399.98px) {
+      
+  }
